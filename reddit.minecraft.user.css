@@ -1,0 +1,95 @@
+/* Remove link type flair (it’s too big and expands the layout too much */
+.linkflair-pc .linkflairlabel,
+.linkflair-pe .linkflairlabel,
+.linkflair-xbox .linkflairlabel {
+  display: none !important;
+}
+
+/* Remove cute mob heads near to people’s usernames */
+.content .flair-blaze,
+.content .flair-cavespider,
+.content .flair-chicken,
+.content .flair-cow,
+.content .flair-creeper,
+.content .flair-enderdragon,
+.content .flair-enderman,
+.content .flair-ghast,
+.content .flair-steve,
+.content .flair-magmacube,
+.content .flair-mooshroom,
+.content .flair-pig,
+.content .flair-sheep,
+.content .flair-silverfish,
+.content .flair-skeleton,
+.content .flair-slime,
+.content .flair-snowgolem,
+.content .flair-spider,
+.content .flair-squid,
+.content .flair-testificate,
+.content .flair-wolf,
+.content .flair-zombie,
+.content .flair-zombiepigman,
+.content .flair-lightgraysheep,
+.content .flair-graysheep,
+.content .flair-blacksheep,
+.content .flair-brownsheep,
+.content .flair-pinksheep,
+.content .flair-redsheep,
+.content .flair-orangesheep,
+.content .flair-yellowsheep,
+.content .flair-limesheep,
+.content .flair-greensheep,
+.content .flair-lightbluesheep,
+.content .flair-cyansheep,
+.content .flair-bluesheep,
+.content .flair-purplesheep,
+.content .flair-magentasheep,
+.content .flair-ozelot,
+.content .flair-catsiamese,
+.content .flair-catred,
+.content .flair-catblack,
+.content .flair-painting,
+.content .flair-irongolem,
+.content .flair-zombievillager,
+.content .flair-wither,
+.content .flair-witherskeleton,
+.content .flair-bat,
+.content .flair-witch,
+.content .flair-horse,
+.content .flair-pufferfish,
+.content .flair-endermite {
+  display: none !important;
+}
+
+/* Remove pseudo-random background */
+div.thing.link:first-child:after {
+  display: none !important;
+}
+
+/* Remove contextual information for noobs */
+.commentarea > div.sitetable::before,
+div.sidebox.submit > .morelink:hover::before,
+.sidecontentbox a.helplink:hover::before,
+.report-button > span.option.error::before,
+.submit-page button.btn:hover::before {
+  display: none !important;
+}
+
+/* Revert blockquote bubbles in the sidebar */
+.titlebox blockquote {
+  padding: 0 !important;
+  text-shadow: none !important;
+  border: 0 !important;
+  margin: 0 !important;
+  font-size: inherit !important;
+  font-weight: normal !important;
+}
+
+/* Put the submit button where it belongs */
+.submit-page button.btn {
+  position: static !important;
+}
+
+.submit-page .roundfield::after {
+  display: none !important;
+}
