@@ -58,6 +58,8 @@
 #typing_text { display: none !important; }
 /* Remove "New day" divider */
 .light_theme .day_divider { display: none !important; }
+/* Remove welcome display area */
+#end_div { display: none !important; }
 
 /* Different whitespace and border dividers */
 .light_theme .message {
@@ -82,7 +84,8 @@
 .light_theme .message .member_image,
 .light_theme .message_sender,
 .light_theme .message .timestamp,
-.light_theme .message .message_star_holder {
+.light_theme .message .message_star_holder,
+.light_theme .message .msg_actions {
   position: absolute !important;
 }
 
@@ -101,7 +104,7 @@
 /* No idea what this is */
 .light_theme .copy_only { display: none !important; }
 
-/* Putting timestamp and star icon on the right */
+/* Putting timestamp and message icons on the right */
 .light_theme .message .timestamp {
   right: 20px !important;
   left: auto !important;
@@ -115,6 +118,11 @@
   top: 7px !important;
 }
 
+.light_theme .message .msg_actions {
+  right: 86px !important;
+  top: 7px !important;
+}
+
 /* Wrangling image previews */
 .light_theme .message .message_star_holder + br,
 .light_theme .msg_inline_img_holder + .meta,
@@ -122,8 +130,42 @@
   display: none !important;
 }
 
+/* Wrangling attachments */
+.inline_attachment,
+.inline_attachment .attachment_title {
+  font-size: 11px !important;
+  line-height: 16px !important;
+}
+
+.inline_attachment .inline_attachment_wrapper {
+  display: inline-block !important;
+  background: #f5f5f5 !important;
+  padding: 2px 3px !important;
+}
+
+.inline_attachment .attachment_bar { display: none !important; }
+
+#msgs_div div.dynamic_content_max_width,
+.inline_attachment .content,
+.special_formatting_quote .content,
+.inline_attachment .content {
+  width: auto !important;
+  padding: 0 !important;
+}
+
+/* Wrangling code blocks */
+pre.special_formatting {
+  margin-right: 200px !important;
+}
+
 /* Not as bold */
 .light_theme .message_sender,
 .light_theme .file_reference .file_name {
   font-weight: 600 !important;
+}
+
+/* Removing useless mentions */
+.inline_attachment .mention,
+.message_content a .mention {
+  background: transparent !important;
 }
