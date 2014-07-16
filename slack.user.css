@@ -160,7 +160,8 @@
   padding: 2px 3px !important;
 }
 
-.inline_attachment .attachment_bar { display: none !important; }
+.inline_attachment .attachment_bar,
+.inline_attachment .msg_inline_attachment_thumb { display: none !important; }
 
 #msgs_div div.dynamic_content_max_width,
 .inline_attachment .content,
