@@ -112,15 +112,28 @@
   white-space: nowrap !important;
 }
 
+.light_theme .message.divider + .message:not(.divider) .timestamp {
+  top: 3px !important;
+  right: 25px !important;
+}
+
+.light_theme .message .message_star_holder,
+.light_theme .message .msg_actions {
+  top: 7px !important;
+}
+
+.light_theme .message.divider + .message:not(.divider)  .message_star_holder,
+.light_theme .message.divider + .message:not(.divider) .msg_actions {
+  top: 0 !important;
+}
+
 .light_theme .message .message_star_holder {
   right: 60px !important;
   left: auto !important;
-  top: 7px !important;
 }
 
 .light_theme .message .msg_actions {
   right: 86px !important;
-  top: 7px !important;
 }
 
 /* Wrangling image previews */
