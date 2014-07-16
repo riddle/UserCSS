@@ -75,7 +75,7 @@
   margin: 0 !important;
 }
 
-.light_theme .message.divider + .message:not(.divider) {
+.light_theme .message.divider ~ .message:not(.divider) {
   margin-top: -10px !important;
   padding-top: 0 !important;
 }
