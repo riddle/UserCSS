@@ -101,6 +101,10 @@
   left: 44px !important;
 }
 
+.light_theme .message .message_content {
+  padding-right: 100px !important;
+}
+
 /* No idea what this is */
 .light_theme .copy_only { display: none !important; }
 
