@@ -97,6 +97,10 @@
   transform: scale(0.88) !important;
 }
 
+.light_theme .message .message_content {
+  font: 14px/22px .LucidaGrandeUI, "Lucida Grande", sans-serif !important;
+}
+
 .light_theme .message_sender {
   left: 44px !important;
 }
