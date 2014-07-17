@@ -56,10 +56,21 @@
 #messages_unread_status { display: none !important; }
 /* Remove "Someone is typing" */
 #typing_text { display: none !important; }
-/* Remove "New day" divider */
-.light_theme .day_divider { display: none !important; }
 /* Remove welcome display area */
 #end_div { display: none !important; }
+
+/* Adjust "New day" divider */
+.light_theme .day_divider {
+  text-align: left !important;
+}
+
+.light_theme .day_divider + .message.avatar .member_image {
+  top: -7px !important;
+}
+
+.light_theme .day_divider .day_divider_label {
+  margin: 0 0 0 184px !important;
+}
 
 /* Different whitespace and border dividers */
 .light_theme .message {
@@ -78,6 +89,10 @@
 .light_theme .message.divider ~ .message:not(.divider) {
   margin-top: -10px !important;
   padding-top: 0 !important;
+}
+
+.light_theme .day_divider + .message.first:not(.divider) {
+  margin-top: 0 !important;
 }
 
 /* Different layout for messages */
