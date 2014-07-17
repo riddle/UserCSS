@@ -65,10 +65,6 @@
   margin-right: 0 !important;
 }
 
-.light_theme .msgs_holder .day_divider + .message.avatar .member_image {
-  top: -7px !important;
-}
-
 .light_theme .msgs_holder .day_divider .day_divider_label {
   margin: 0 0 0 184px !important;
 }
@@ -94,6 +90,10 @@
 
 .light_theme .message.show_user.file_upload + .message {
   padding-top: 10px !important;
+}
+
+.light_theme .msgs_holder .day_divider + .message {
+  border-top: 0 !important;
 }
 
 /* Treat all messages as processed */
