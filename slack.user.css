@@ -88,7 +88,6 @@
 }
 
 .light_theme .message.show_user ~ .message:not(.show_user) {
-  background-color: #ffc;
   padding-top: 0 !important;
   margin-top: -10px !important;
 }
