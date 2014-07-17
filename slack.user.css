@@ -60,15 +60,16 @@
 #end_div { display: none !important; }
 
 /* Adjust "New day" divider */
-.light_theme .day_divider {
+.light_theme .msgs_holder .day_divider {
   text-align: left !important;
+  margin-right: 0 !important;
 }
 
-.light_theme .day_divider + .message.avatar .member_image {
+.light_theme .msgs_holder .day_divider + .message.avatar .member_image {
   top: -7px !important;
 }
 
-.light_theme .day_divider .day_divider_label {
+.light_theme .msgs_holder .day_divider .day_divider_label {
   margin: 0 0 0 184px !important;
 }
 
