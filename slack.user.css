@@ -82,18 +82,19 @@
   margin: 0 !important;
 }
 
-.light_theme .message.divider {
+.light_theme .message.divider,
+.light_theme .message.first {
   border-top: 1px solid #ededed !important;
-  margin: 0 !important;
 }
 
-.light_theme .message.divider ~ .message:not(.divider) {
-  margin-top: -10px !important;
+.light_theme .message.show_user ~ .message:not(.show_user) {
+  background-color: #ffc;
   padding-top: 0 !important;
+  margin-top: -10px !important;
 }
 
-.light_theme .day_divider + .message.first:not(.divider) {
-  margin-top: 0 !important;
+.light_theme .message.show_user.file_upload + .message {
+  padding-top: 10px !important;
 }
 
 /* Treat all messages as processed */
