@@ -96,6 +96,11 @@
   margin-top: 0 !important;
 }
 
+/* Treat all messages as processed */
+.light_theme .message.unprocessed {
+  color: #3d3c40 !important;
+}
+
 /* Different layout for messages */
 .light_theme .message .member_image,
 .light_theme .message_sender,
