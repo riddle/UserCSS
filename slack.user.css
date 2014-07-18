@@ -184,12 +184,28 @@
 .inline_attachment .attachment_bar,
 .inline_attachment .msg_inline_attachment_thumb { display: none !important; }
 
-#msgs_div div.dynamic_content_max_width,
 .inline_attachment .content,
 .special_formatting_quote .content,
 .inline_attachment .content {
   width: auto !important;
   padding: 0 !important;
+  display: block !important;
+}
+
+/* Editing images and videos */
+.light_theme .msg_inline_img_holder,
+.light_theme .msg_inline_video_holder {
+  border: 0 !important;
+}
+
+/* Editing quote blocks */
+
+.special_formatting_quote .quote_bar { display: none !important; }
+
+.special_formatting_quote .content {
+  border-left: 2px solid #ccc !important;
+  padding-left: 12px !important;
+  color: #777 !important;
 }
 
 /* Wrangling code blocks */
