@@ -168,29 +168,11 @@
   display: none !important;
 }
 
-/* Wrangling attachments */
-.inline_attachment,
-.inline_attachment .attachment_title {
-  font-size: 11px !important;
-  line-height: 16px !important;
-}
-
 .inline_attachment .inline_attachment_wrapper {
   display: inline-block !important;
-  background: #f5f5f5 !important;
   padding: 2px 3px !important;
 }
 
-.inline_attachment .attachment_bar,
-.inline_attachment .msg_inline_attachment_thumb { display: none !important; }
-
-.inline_attachment .content,
-.special_formatting_quote .content,
-.inline_attachment .content {
-  width: auto !important;
-  padding: 0 !important;
-  display: block !important;
-}
 
 /* Editing images and videos */
 .light_theme .msg_inline_img_holder,
