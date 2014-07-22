@@ -18,6 +18,18 @@
   text-shadow: none !important;
 }
 
+#col_channels ul li i.presence_icon {
+  margin-top: -5px !important;
+}
+
+#col_channels ul li.active .presence.away i.presence_icon {
+  color: #666 !important;
+}
+
+#col_channels ul li.active .presence.active i.presence_icon {
+  color: #53be2d !important;
+}
+
 .channels_list_holder ul li a:hover {
   background: #242b37 !important;
 }
