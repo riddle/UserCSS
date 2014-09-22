@@ -1,0 +1,64 @@
+#sharingsettings,
+#friend-picker-div {
+  margin-top: 0 !important;
+}
+
+#sharingsettings {
+  margin-bottom: 10px !important;
+  padding-bottom: 0 !important;
+  border-bottom: 1px solid #ddd !important;
+}
+
+#friend-picker-div {
+  padding: 0 !important;
+  height: auto !important;
+  margin-bottom: 10px !important;
+}
+
+#sharesummarywrapper,
+#otherusers-facepile-wrapper {
+  display: none !important;
+}
+
+#otheruserstable {
+  display: block !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+#otheruserstable li {
+  float: none !important;
+}
+
+#otheruserstable .user-image {
+  display: inline-block !important;
+}
+
+#otheruserstable figcaption {
+  display: inline-block !important;
+  float: none !important;
+}
+
+#otheruserstable .user-image .connected {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: 6px;
+  height: 6px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: #59ca27;
+}
+
+#otheruserstable .killuser {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAARCAYAAABwxZQXAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1%2B%2FAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAINSURBVEiJ3ZfBjdpAFIZ%2FDwIkTi5hS9jDFAAFjJR0ECpYCjAgoTnAKQoNrEtAegVsCpgDpVABkwNjx575x0ZKpGjzJCSjMZ%2Fe5%2FH7bQp88vLet8fqH%2Fbx16vofnHOLQEsAVy01lf2A%2BfcJhzWWutbvC4iLcMYQxki0jKMMQljt9st7%2Ff7EsDFWksZVVVtAKAoivpwONyAdGc%2BAOwBfDjnXonIO4Dv4bOJ12OGiCQMERlleO9bRlVVCaOqqpbhvW8ZsUxzlcpYKIh8I%2BfG1WN0hYLIKMN732N0hYIIZcS32SseV7bsnLgC8BYBaq31mjUSmn%2BKYYyhjND8Uwxr7boJgZ5MRiiurMiAUMLIiTRFhBKGtXYN%2FE60JM3C4K%2FAb4FREQAIg59ljIkAQBj8LKMR6RaN5iD0kyz9GGuiqSD0R4wg9DSDyoRh%2F0KWaMqxCsNOGSzlWIVhpwyWcokMSa0LBlKOFUmthDEmRFIrYcRCPRkiUmutv6J%2F7w4KEZHaGEMZOaHtdpswrLWUsd%2FvW0a8M7HIGqChUIJvf8Johp2EQpahlIpF1kAaCkqpcjqdtoxYpnl1SFKLCNHXjC4jTi0iRBmz2eyqlOqJNGWtvRZFsZpMJrf5fI7FYpHrA3DOvWQXH%2Bulcy6X%2FQAAERlkiEgpIoOM4%2FE4yDidTuX5fC6Bx3PGe58%2BND9b%2Fbd%2FAX4BAcElnmjZK%2FIAAAAASUVORK5CYII%3D) no-repeat 0 0 !important;
+}
+
+#otheruserstable .killuser:hover,
+#otheruserstable .killuser:focus {
+  background-position: -17px 0 !important;
+}
+
+#otheruserstable li:hover .killuser {
+  display: block !important;
+}
