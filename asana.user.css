@@ -1,0 +1,16 @@
+.dropdown,
+.react-mount-node .dropdownLayer,
+.react-mount-node .dropdown-container {
+  /* Edit dropdown shadow to be more delicate */
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.navigationDockDomainView-teamSectionHeader {
+  /* Remove `Teams` header from sidebar */
+  display: none !important;
+}
+
+.recents-zipper {
+  /* Remove `Recents` from sidebar */
+  display: none !important;
+}
